@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
 }
 
 .profile-image {
@@ -20,6 +22,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .logo {
@@ -27,6 +31,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: 14px;
+  flex: 1 1 0;
 }
 
 button {
@@ -45,4 +51,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+  flex: 100 1 0;
 }
